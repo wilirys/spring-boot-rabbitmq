@@ -1,0 +1,12 @@
+server:
+  port: 8080
+---
+spring:
+  profiles: sender
+server:
+  port: 8081
+---
+spring:
+  profiles: receiver
+server:
+  port: 8082
